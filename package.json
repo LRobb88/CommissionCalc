@@ -1,0 +1,22 @@
+{
+  "name": "inkmule-proofing",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Inkmule art request + proofing system: Missive sidebar app, web app (kanban), and customer proof approval pages",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "google-auth-library": "^9.15.0",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.13.1",
+    "resend": "^4.0.1",
+    "web-push": "^3.6.7"
+  }
+}
